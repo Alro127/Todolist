@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace TodoList
 {
-    internal class List_Event
+    public class List_Event
     {
         Node_Event head = new Node_Event();
         Node_Event tail = new Node_Event();
 
-        internal Node_Event Head { get => head; set => head = value; }
-        internal Node_Event Tail { get => tail; set => tail = value; }
+        public Node_Event Head { get => head; set => head = value; }
+        public Node_Event Tail { get => tail; set => tail = value; }
 
         public List_Event()
         {
