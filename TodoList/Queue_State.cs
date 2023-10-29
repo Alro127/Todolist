@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TodoList
 {
-    internal class Queue_State
+    public class Queue_State
     {
         Node_State head = new Node_State();
         Node_State tail = new Node_State();
@@ -18,19 +18,22 @@ namespace TodoList
             Tail = null;
         }
 
-        internal Node_State Head { get => head; set => head = value; }
-        internal Node_State Tail { get => tail; set => tail = value; }
+        public Node_State Head { get => head; set => head = value; }
+        public Node_State Tail { get => tail; set => tail = value; }
 
         public void Push(Node_State p)
         {
-            if (Head != null)
+            if (Head == null)
             {
                 Head = p;
                 Tail = p;
-                return;
             }
-            Tail.Next = p;
-            Tail = p;
+            else
+            {
+                Tail.Next = p;
+                Tail = p;
+            }
+            
         }
         public void Pop()
         {

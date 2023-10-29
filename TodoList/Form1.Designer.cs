@@ -29,57 +29,57 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button9 = new System.Windows.Forms.Button();
+            this.Search_btn = new System.Windows.Forms.Button();
+            this.Sort_btn = new System.Windows.Forms.Button();
+            this.Fix_btn = new System.Windows.Forms.Button();
+            this.Del_btn = new System.Windows.Forms.Button();
+            this.Add_btn = new System.Windows.Forms.Button();
+            this.Redo_btn = new System.Windows.Forms.Button();
+            this.Undo_btn = new System.Windows.Forms.Button();
+            this.Add_pnl = new System.Windows.Forms.Panel();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.label10 = new System.Windows.Forms.Label();
+            this.Add_dt = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
+            this.Add_OK_btn = new System.Windows.Forms.Button();
+            this.Add_tb = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.Del_pnl = new System.Windows.Forms.Panel();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.Sort_pnl = new System.Windows.Forms.Panel();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.label10 = new System.Windows.Forms.Label();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.Fix_pnl = new System.Windows.Forms.Panel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.Search_pnl = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
@@ -88,12 +88,12 @@
             this.label19 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.Add_pnl.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
+            this.Del_pnl.SuspendLayout();
+            this.Sort_pnl.SuspendLayout();
+            this.Fix_pnl.SuspendLayout();
+            this.Search_pnl.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -105,38 +105,13 @@
             this.panel2.Size = new System.Drawing.Size(368, 278);
             this.panel2.TabIndex = 1;
             // 
-            // panel3
+            // checkedListBox1
             // 
-            this.panel3.Controls.Add(this.button8);
-            this.panel3.Controls.Add(this.button7);
-            this.panel3.Controls.Add(this.button6);
-            this.panel3.Controls.Add(this.button5);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Location = new System.Drawing.Point(4, 287);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(256, 154);
-            this.panel3.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(58, 24);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Undo";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(62, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(58, 24);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Redo";
-            this.button2.UseVisualStyleBackColor = true;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(9, 44);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(349, 225);
+            this.checkedListBox1.TabIndex = 1;
             // 
             // label1
             // 
@@ -148,74 +123,20 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "List Today";
             // 
-            // checkedListBox1
+            // panel3
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(9, 44);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(349, 225);
-            this.checkedListBox1.TabIndex = 1;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(3, 34);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 28);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Thêm";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(3, 68);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(116, 28);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Xóa";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(3, 102);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(116, 28);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Sửa";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.radioButton6);
-            this.panel1.Controls.Add(this.radioButton5);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(266, 286);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(532, 155);
-            this.panel1.TabIndex = 4;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(125, 34);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(116, 28);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Sắp xếp";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(125, 68);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(116, 28);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Tìm kiếm";
-            this.button7.UseVisualStyleBackColor = true;
+            this.panel3.Controls.Add(this.button8);
+            this.panel3.Controls.Add(this.Search_btn);
+            this.panel3.Controls.Add(this.Sort_btn);
+            this.panel3.Controls.Add(this.Fix_btn);
+            this.panel3.Controls.Add(this.Del_btn);
+            this.panel3.Controls.Add(this.Add_btn);
+            this.panel3.Controls.Add(this.Redo_btn);
+            this.panel3.Controls.Add(this.Undo_btn);
+            this.panel3.Location = new System.Drawing.Point(4, 287);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(256, 154);
+            this.panel3.TabIndex = 2;
             // 
             // button8
             // 
@@ -226,40 +147,131 @@
             this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // Search_btn
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 41);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Tên sự kiện:";
+            this.Search_btn.Location = new System.Drawing.Point(125, 68);
+            this.Search_btn.Name = "Search_btn";
+            this.Search_btn.Size = new System.Drawing.Size(116, 28);
+            this.Search_btn.TabIndex = 6;
+            this.Search_btn.Text = "Tìm kiếm";
+            this.Search_btn.UseVisualStyleBackColor = true;
+            this.Search_btn.Click += new System.EventHandler(this.Search_btn_Click);
             // 
-            // label3
+            // Sort_btn
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 69);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 16);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Thời gian:";
+            this.Sort_btn.Location = new System.Drawing.Point(125, 34);
+            this.Sort_btn.Name = "Sort_btn";
+            this.Sort_btn.Size = new System.Drawing.Size(116, 28);
+            this.Sort_btn.TabIndex = 5;
+            this.Sort_btn.Text = "Sắp xếp";
+            this.Sort_btn.UseVisualStyleBackColor = true;
+            this.Sort_btn.Click += new System.EventHandler(this.Sort_btn_Click);
             // 
-            // textBox1
+            // Fix_btn
             // 
-            this.textBox1.Location = new System.Drawing.Point(99, 37);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(409, 22);
-            this.textBox1.TabIndex = 2;
+            this.Fix_btn.Location = new System.Drawing.Point(3, 102);
+            this.Fix_btn.Name = "Fix_btn";
+            this.Fix_btn.Size = new System.Drawing.Size(116, 28);
+            this.Fix_btn.TabIndex = 4;
+            this.Fix_btn.Text = "Sửa";
+            this.Fix_btn.UseVisualStyleBackColor = true;
+            this.Fix_btn.Click += new System.EventHandler(this.Fix_btn_Click);
             // 
-            // button9
+            // Del_btn
             // 
-            this.button9.Location = new System.Drawing.Point(411, 103);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(111, 37);
-            this.button9.TabIndex = 4;
-            this.button9.Text = "OK";
-            this.button9.UseVisualStyleBackColor = true;
+            this.Del_btn.Location = new System.Drawing.Point(3, 68);
+            this.Del_btn.Name = "Del_btn";
+            this.Del_btn.Size = new System.Drawing.Size(116, 28);
+            this.Del_btn.TabIndex = 3;
+            this.Del_btn.Text = "Xóa";
+            this.Del_btn.UseVisualStyleBackColor = true;
+            this.Del_btn.Click += new System.EventHandler(this.Del_btn_Click);
+            // 
+            // Add_btn
+            // 
+            this.Add_btn.Location = new System.Drawing.Point(3, 34);
+            this.Add_btn.Name = "Add_btn";
+            this.Add_btn.Size = new System.Drawing.Size(116, 28);
+            this.Add_btn.TabIndex = 2;
+            this.Add_btn.Text = "Thêm";
+            this.Add_btn.UseVisualStyleBackColor = true;
+            this.Add_btn.Click += new System.EventHandler(this.Add_btn_Click);
+            // 
+            // Redo_btn
+            // 
+            this.Redo_btn.Location = new System.Drawing.Point(62, 3);
+            this.Redo_btn.Name = "Redo_btn";
+            this.Redo_btn.Size = new System.Drawing.Size(58, 24);
+            this.Redo_btn.TabIndex = 1;
+            this.Redo_btn.Text = "Redo";
+            this.Redo_btn.UseVisualStyleBackColor = true;
+            this.Redo_btn.Click += new System.EventHandler(this.Redo_btn_Click);
+            // 
+            // Undo_btn
+            // 
+            this.Undo_btn.Location = new System.Drawing.Point(3, 3);
+            this.Undo_btn.Name = "Undo_btn";
+            this.Undo_btn.Size = new System.Drawing.Size(58, 24);
+            this.Undo_btn.TabIndex = 0;
+            this.Undo_btn.Text = "Undo";
+            this.Undo_btn.UseVisualStyleBackColor = true;
+            this.Undo_btn.Click += new System.EventHandler(this.Undo_btn_Click);
+            // 
+            // Add_pnl
+            // 
+            this.Add_pnl.Controls.Add(this.radioButton6);
+            this.Add_pnl.Controls.Add(this.radioButton5);
+            this.Add_pnl.Controls.Add(this.label10);
+            this.Add_pnl.Controls.Add(this.Add_dt);
+            this.Add_pnl.Controls.Add(this.label4);
+            this.Add_pnl.Controls.Add(this.Add_OK_btn);
+            this.Add_pnl.Controls.Add(this.Add_tb);
+            this.Add_pnl.Controls.Add(this.label3);
+            this.Add_pnl.Controls.Add(this.label2);
+            this.Add_pnl.Location = new System.Drawing.Point(266, 286);
+            this.Add_pnl.Name = "Add_pnl";
+            this.Add_pnl.Size = new System.Drawing.Size(532, 155);
+            this.Add_pnl.TabIndex = 4;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(164, 95);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(48, 20);
+            this.radioButton6.TabIndex = 9;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "NO";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(99, 95);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(55, 20);
+            this.radioButton5.TabIndex = 8;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "YES";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(14, 95);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(75, 16);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "Quan trọng:";
+            // 
+            // Add_dt
+            // 
+            this.Add_dt.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Add_dt.Location = new System.Drawing.Point(99, 65);
+            this.Add_dt.Name = "Add_dt";
+            this.Add_dt.Size = new System.Drawing.Size(409, 22);
+            this.Add_dt.TabIndex = 6;
+            this.Add_dt.ValueChanged += new System.EventHandler(this.Add_dt_ValueChanged);
             // 
             // label4
             // 
@@ -270,6 +282,43 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Thêm Sự Kiện";
             // 
+            // Add_OK_btn
+            // 
+            this.Add_OK_btn.Location = new System.Drawing.Point(411, 103);
+            this.Add_OK_btn.Name = "Add_OK_btn";
+            this.Add_OK_btn.Size = new System.Drawing.Size(111, 37);
+            this.Add_OK_btn.TabIndex = 4;
+            this.Add_OK_btn.Text = "OK";
+            this.Add_OK_btn.UseVisualStyleBackColor = true;
+            this.Add_OK_btn.Click += new System.EventHandler(this.Add_OK_btn_Click);
+            // 
+            // Add_tb
+            // 
+            this.Add_tb.Location = new System.Drawing.Point(99, 37);
+            this.Add_tb.Multiline = true;
+            this.Add_tb.Name = "Add_tb";
+            this.Add_tb.Size = new System.Drawing.Size(409, 22);
+            this.Add_tb.TabIndex = 2;
+            this.Add_tb.TextChanged += new System.EventHandler(this.Add_tb_TextChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 69);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 16);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Thời gian:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 16);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Tên sự kiện:";
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.tableLayoutPanel1);
@@ -278,6 +327,29 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(416, 277);
             this.panel4.TabIndex = 5;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 7;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 56F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 51F));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(10, 44);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 7;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 11F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(403, 223);
+            this.tableLayoutPanel1.TabIndex = 9;
             // 
             // label5
             // 
@@ -289,25 +361,19 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "Schedule";
             // 
-            // dateTimePicker1
+            // Del_pnl
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(99, 65);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(409, 22);
-            this.dateTimePicker1.TabIndex = 6;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.dateTimePicker2);
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.button10);
-            this.panel5.Controls.Add(this.textBox2);
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Location = new System.Drawing.Point(266, 447);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(532, 155);
-            this.panel5.TabIndex = 7;
+            this.Del_pnl.Controls.Add(this.dateTimePicker2);
+            this.Del_pnl.Controls.Add(this.label6);
+            this.Del_pnl.Controls.Add(this.button10);
+            this.Del_pnl.Controls.Add(this.textBox2);
+            this.Del_pnl.Controls.Add(this.label7);
+            this.Del_pnl.Controls.Add(this.label8);
+            this.Del_pnl.Location = new System.Drawing.Point(266, 447);
+            this.Del_pnl.Name = "Del_pnl";
+            this.Del_pnl.Size = new System.Drawing.Size(532, 155);
+            this.Del_pnl.TabIndex = 7;
+            this.Del_pnl.Visible = false;
             // 
             // dateTimePicker2
             // 
@@ -360,18 +426,63 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "Tên sự kiện:";
             // 
-            // panel6
+            // Sort_pnl
             // 
-            this.panel6.Controls.Add(this.radioButton4);
-            this.panel6.Controls.Add(this.radioButton3);
-            this.panel6.Controls.Add(this.radioButton2);
-            this.panel6.Controls.Add(this.radioButton1);
-            this.panel6.Controls.Add(this.label9);
-            this.panel6.Controls.Add(this.button11);
-            this.panel6.Location = new System.Drawing.Point(804, 242);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(532, 155);
-            this.panel6.TabIndex = 8;
+            this.Sort_pnl.Controls.Add(this.radioButton4);
+            this.Sort_pnl.Controls.Add(this.radioButton3);
+            this.Sort_pnl.Controls.Add(this.radioButton2);
+            this.Sort_pnl.Controls.Add(this.radioButton1);
+            this.Sort_pnl.Controls.Add(this.label9);
+            this.Sort_pnl.Controls.Add(this.button11);
+            this.Sort_pnl.Location = new System.Drawing.Point(804, 242);
+            this.Sort_pnl.Name = "Sort_pnl";
+            this.Sort_pnl.Size = new System.Drawing.Size(532, 155);
+            this.Sort_pnl.TabIndex = 8;
+            this.Sort_pnl.Visible = false;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(131, 87);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(82, 20);
+            this.radioButton4.TabIndex = 10;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Gấp nhất";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(131, 45);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(121, 20);
+            this.radioButton3.TabIndex = 9;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Quan trọng nhất";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(31, 87);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(49, 20);
+            this.radioButton2.TabIndex = 7;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Z-A";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(31, 45);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(49, 20);
+            this.radioButton1.TabIndex = 6;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "A-Z";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -391,98 +502,60 @@
             this.button11.Text = "OK";
             this.button11.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // Fix_pnl
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(31, 45);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(49, 20);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "A-Z";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Fix_pnl.Controls.Add(this.listBox1);
+            this.Fix_pnl.Controls.Add(this.label15);
+            this.Fix_pnl.Controls.Add(this.radioButton7);
+            this.Fix_pnl.Controls.Add(this.dateTimePicker3);
+            this.Fix_pnl.Controls.Add(this.radioButton8);
+            this.Fix_pnl.Controls.Add(this.label14);
+            this.Fix_pnl.Controls.Add(this.label11);
+            this.Fix_pnl.Controls.Add(this.button12);
+            this.Fix_pnl.Controls.Add(this.textBox3);
+            this.Fix_pnl.Controls.Add(this.label12);
+            this.Fix_pnl.Controls.Add(this.label13);
+            this.Fix_pnl.Location = new System.Drawing.Point(804, 447);
+            this.Fix_pnl.Name = "Fix_pnl";
+            this.Fix_pnl.Size = new System.Drawing.Size(532, 155);
+            this.Fix_pnl.TabIndex = 8;
+            this.Fix_pnl.Visible = false;
             // 
-            // radioButton2
+            // listBox1
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(31, 87);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(49, 20);
-            this.radioButton2.TabIndex = 7;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Z-A";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Items.AddRange(new object[] {
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"});
+            this.listBox1.Location = new System.Drawing.Point(100, 32);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(409, 20);
+            this.listBox1.TabIndex = 14;
             // 
-            // radioButton3
+            // label15
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(131, 45);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(121, 20);
-            this.radioButton3.TabIndex = 9;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Quan trọng nhất";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(15, 32);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(57, 16);
+            this.label15.TabIndex = 13;
+            this.label15.Text = "Sự kiện: ";
             // 
-            // radioButton4
+            // radioButton7
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(131, 87);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(82, 20);
-            this.radioButton4.TabIndex = 10;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Gấp nhất";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(14, 95);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(75, 16);
-            this.label10.TabIndex = 7;
-            this.label10.Text = "Quan trọng:";
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(99, 95);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(55, 20);
-            this.radioButton5.TabIndex = 8;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "YES";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(164, 95);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(48, 20);
-            this.radioButton6.TabIndex = 9;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "NO";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.listBox1);
-            this.panel7.Controls.Add(this.label15);
-            this.panel7.Controls.Add(this.radioButton7);
-            this.panel7.Controls.Add(this.dateTimePicker3);
-            this.panel7.Controls.Add(this.radioButton8);
-            this.panel7.Controls.Add(this.label14);
-            this.panel7.Controls.Add(this.label11);
-            this.panel7.Controls.Add(this.button12);
-            this.panel7.Controls.Add(this.textBox3);
-            this.panel7.Controls.Add(this.label12);
-            this.panel7.Controls.Add(this.label13);
-            this.panel7.Location = new System.Drawing.Point(804, 447);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(532, 155);
-            this.panel7.TabIndex = 8;
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(165, 113);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(48, 20);
+            this.radioButton7.TabIndex = 12;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "NO";
+            this.radioButton7.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker3
             // 
@@ -490,6 +563,26 @@
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(409, 22);
             this.dateTimePicker3.TabIndex = 6;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Location = new System.Drawing.Point(100, 113);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(55, 20);
+            this.radioButton8.TabIndex = 11;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "YES";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(15, 113);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(75, 16);
+            this.label14.TabIndex = 10;
+            this.label14.Text = "Quan trọng:";
             // 
             // label11
             // 
@@ -535,97 +628,19 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "Tên sự kiện:";
             // 
-            // radioButton7
+            // Search_pnl
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(165, 113);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(48, 20);
-            this.radioButton7.TabIndex = 12;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "NO";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(100, 113);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(55, 20);
-            this.radioButton8.TabIndex = 11;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "YES";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(15, 113);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(75, 16);
-            this.label14.TabIndex = 10;
-            this.label14.Text = "Quan trọng:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(15, 32);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(57, 16);
-            this.label15.TabIndex = 13;
-            this.label15.Text = "Sự kiện: ";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Items.AddRange(new object[] {
-            "a",
-            "b",
-            "c",
-            "d",
-            "e",
-            "f"});
-            this.listBox1.Location = new System.Drawing.Point(100, 32);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(409, 20);
-            this.listBox1.TabIndex = 14;
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.ColumnCount = 7;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 58F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 58F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 56F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(10, 44);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 7;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 11F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(403, 223);
-            this.tableLayoutPanel1.TabIndex = 9;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.label16);
-            this.panel8.Controls.Add(this.label17);
-            this.panel8.Controls.Add(this.button13);
-            this.panel8.Controls.Add(this.textBox4);
-            this.panel8.Controls.Add(this.label18);
-            this.panel8.Controls.Add(this.label19);
-            this.panel8.Location = new System.Drawing.Point(804, 81);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(532, 155);
-            this.panel8.TabIndex = 10;
+            this.Search_pnl.Controls.Add(this.label16);
+            this.Search_pnl.Controls.Add(this.label17);
+            this.Search_pnl.Controls.Add(this.button13);
+            this.Search_pnl.Controls.Add(this.textBox4);
+            this.Search_pnl.Controls.Add(this.label18);
+            this.Search_pnl.Controls.Add(this.label19);
+            this.Search_pnl.Location = new System.Drawing.Point(804, 81);
+            this.Search_pnl.Name = "Search_pnl";
+            this.Search_pnl.Size = new System.Drawing.Size(532, 155);
+            this.Search_pnl.TabIndex = 10;
+            this.Search_pnl.Visible = false;
             // 
             // label16
             // 
@@ -684,32 +699,34 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1359, 661);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
+            this.ClientSize = new System.Drawing.Size(1073, 550);
+            this.Controls.Add(this.Search_pnl);
+            this.Controls.Add(this.Fix_pnl);
+            this.Controls.Add(this.Sort_pnl);
+            this.Controls.Add(this.Del_pnl);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Add_pnl);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Add_pnl.ResumeLayout(false);
+            this.Add_pnl.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
+            this.Del_pnl.ResumeLayout(false);
+            this.Del_pnl.PerformLayout();
+            this.Sort_pnl.ResumeLayout(false);
+            this.Sort_pnl.PerformLayout();
+            this.Fix_pnl.ResumeLayout(false);
+            this.Fix_pnl.PerformLayout();
+            this.Search_pnl.ResumeLayout(false);
+            this.Search_pnl.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -718,32 +735,32 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Redo_btn;
+        private System.Windows.Forms.Button Undo_btn;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Search_btn;
+        private System.Windows.Forms.Button Sort_btn;
+        private System.Windows.Forms.Button Fix_btn;
+        private System.Windows.Forms.Button Del_btn;
+        private System.Windows.Forms.Button Add_btn;
+        private System.Windows.Forms.Panel Add_pnl;
+        private System.Windows.Forms.Button Add_OK_btn;
+        private System.Windows.Forms.TextBox Add_tb;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.DateTimePicker Add_dt;
+        private System.Windows.Forms.Panel Del_pnl;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel Sort_pnl;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.RadioButton radioButton6;
@@ -753,7 +770,7 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel Fix_pnl;
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button12;
@@ -766,7 +783,7 @@
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel Search_pnl;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Button button13;

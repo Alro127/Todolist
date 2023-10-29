@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TodoList
 {
-    internal class Node_Event
+    public class Node_Event
     {
         string _event;
         DateTime _deadline;
@@ -16,9 +16,19 @@ namespace TodoList
         public Node_Event() 
         {
         }
+        public Node_Event(string event_value, DateTime deadline_value)
+        {
+            Event = event_value;
+            Deadline = deadline_value;
+        }
 
         public string Event { get => _event; set => _event = value; }
         public DateTime Deadline { get => _deadline; set => _deadline = value; }
-        internal Node_Event Next { get => next; set => next = value; }
+        public Node_Event Next { get => next; set => next = value; }
+
+        public override string ToString()
+        {
+            return Event + " " +Deadline.ToLongTimeString();
+        }
     }
 }

@@ -8,10 +8,10 @@ using System.Windows.Forms.VisualStyles;
 
 namespace TodoList
 {
-    internal class Stack_State
+    public class Stack_State
     {
         Node_State head = new Node_State();
-        internal Node_State Head { get => head; set => head = value; }
+        public Node_State Head { get => head; set => head = value; }
         public Stack_State()
         {
             Head = null;
@@ -19,12 +19,13 @@ namespace TodoList
 
         public void Push(Node_State value)
         {
-            if (Head == null) Head = value;
-            else
+            if (Head == null) 
             {
-                value.Next = Head;
                 Head = value;
+                return;
             }
+            value.Next = Head;
+            Head = value;
         }
         public void Pop()
         {

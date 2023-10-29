@@ -25,6 +25,7 @@ namespace TodoList
             {
                 Head = p;
                 Tail = p;
+                return;
             }
             tail.Next = p;
             tail = p;

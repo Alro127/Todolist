@@ -17,6 +17,14 @@ namespace TodoList
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            /*List_Event list_event = new List_Event();
+            ReadFile.Read_File(list_event);
+            Node_Event node_Event = list_event.Head;
+            while (node_Event != null)
+            {
+                Console.WriteLine(node_Event.ToString());
+                node_Event = node_Event.Next;
+            }*/
         }
     }
 }
